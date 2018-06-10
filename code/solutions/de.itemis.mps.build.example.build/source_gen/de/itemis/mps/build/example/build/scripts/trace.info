@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:efe3529e-fd97-405a-b344-7197b86fbe7f(de.itemis.mps.build.example.build.scripts)/809071017451967666">
+    <file name="de.itemis.mps.build.example.xml">
+      <unit id="809071017451967666" at="1,0,722,10" name="de.itemis.mps.build.example.build.scripts.de$itemis$mps$build$example" />
+    </file>
+  </root>
+  <root nodeRef="r:efe3529e-fd97-405a-b344-7197b86fbe7f(de.itemis.mps.build.example.build.scripts)/809071017452112413">
+    <file name="de.itemis.mps.build.example.tests.xml">
+      <unit id="809071017452112413" at="1,0,693,10" name="de.itemis.mps.build.example.build.scripts.de$itemis$mps$build$example$tests" />
+    </file>
+  </root>
+  <root nodeRef="r:efe3529e-fd97-405a-b344-7197b86fbe7f(de.itemis.mps.build.example.build.scripts)/809071017452271509">
+    <file name="de.itemis.mps.build.example.rcp.win.xml">
+      <unit id="809071017452271509" at="1,0,156,10" name="de.itemis.mps.build.example.build.scripts.de$itemis$mps$build$example$rcp$win" />
+    </file>
+  </root>
+</debug-info>
+

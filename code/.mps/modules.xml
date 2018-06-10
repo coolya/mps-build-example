@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.build.example.lang.a/de.itemis.mps.build.example.lang.a.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.build.example.lang.a/runtime/de.itemis.mps.build.example.lang.a.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.build.example.lang.a/sandbox/de.itemis.mps.build.example.lang.a.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.build.example.lang.b/de.itemis.mps.build.example.lang.b.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.build.example.build.all.scripts/de.itemis.mps.build.example.build.all.scripts.msd" folder="_build" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.build.example.build/de.itemis.mps.build.example.build.msd" folder="_build" />
+      <modulePath path="$PROJECT_DIR$/solutions/java.money/java.money.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/test.de.itemis.mps.build.example.lang.a/test.de.itemis.mps.build.example.lang.a.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

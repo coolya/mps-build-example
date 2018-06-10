@@ -1,0 +1,9 @@
+libs
+tmp
+.gradle
+build/distributions
+build/de.itemis.mps.build.example
+artifacts
+.idea
+code/.mps/libraries.xml
+code/.mps/workspace.xml
