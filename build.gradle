@@ -1,4 +1,5 @@
 import de.itemis.mps.gradle.BuildLanguages
+import de.itemis.mps.gradle.GenerateLibrariesXml
 import de.itemis.mps.gradle.TestLanguages
 
 buildscript {
@@ -69,6 +70,14 @@ ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({
 })  + project.files("$project.jdk_home/lib/tools.jar")
 
 
+task generateLibrariesXml(type: GenerateLibrariesXml) {
+    description "Will read project libraries from projectlibraries.properties and generate libraries.xml in .mps directory. Libraries are loaded in mps during start."
+    defaults rootProject.file('projectlibraries.properties')
+    destination file('code/.mps/libraries.xml')
+    overrides rootProject.file('projectlibraries.overrides.properties')
+
+}
+
 task resolveMps(type: Copy) {
     from {
         configurations.mps.resolve().collect { zipTree(it) }
@@ -82,6 +91,13 @@ task resolveMpsArtifacts(type: Copy) {
         configurations.mpsArtifacts.resolve().collect { zipTree(it) }
     }
     into artifactsDir
+}
+
+task setup {
+    // We resolve MPS not for the users to use it but for the distribution packaging script to be able to refer to it.
+    dependsOn resolveMpsArtifacts
+    dependsOn generateLibrariesXml
+    description 'Set up MPS project libraries. Libraries are read in from projectlibraries.properties file.'
 }
 
 
