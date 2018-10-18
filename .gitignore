@@ -10,3 +10,7 @@ code/.mps/workspace.xml
 .gradletasknamecache
 .DS_Store
 classes_gen
+source_gen.caches
+source_gen
+test_gen.caches
+test_gen

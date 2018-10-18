@@ -9,7 +9,6 @@
   <imports />
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
-      <concept id="1215511704609" name="jetbrains.mps.lang.test.structure.NodeWarningCheckOperation" flags="ng" index="29bkU" />
       <concept id="1215603922101" name="jetbrains.mps.lang.test.structure.NodeOperationsContainer" flags="ng" index="7CXmI">
         <child id="1215604436604" name="nodeOperations" index="7EUXB" />
       </concept>
@@ -51,11 +50,7 @@
         <property role="TrG5h" value="dummy" />
         <node concept="2zPypq" id="GUpsR1iOAb" role="_iOnB">
           <property role="TrG5h" value="asd" />
-          <node concept="3as5PQ" id="GUpsR1iXT5" role="2zPyp_">
-            <node concept="7CXmI" id="GUpsR1j0Cd" role="lGtFl">
-              <node concept="29bkU" id="GUpsR1j0Ce" role="7EUXB" />
-            </node>
-          </node>
+          <node concept="3as5PQ" id="GUpsR1iXT5" role="2zPyp_" />
         </node>
         <node concept="7CXmI" id="GUpsR1j0Cn" role="lGtFl">
           <node concept="7OXhh" id="GUpsR1j0Cq" role="7EUXB" />

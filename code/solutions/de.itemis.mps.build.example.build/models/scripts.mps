@@ -187,9 +187,6 @@
         <child id="1462305029084462472" name="buildDate" index="R$TG_" />
         <child id="772379520210716142" name="welcomeLogo" index="3vi$VU" />
       </concept>
-      <concept id="4278635856200826393" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyJar" flags="ng" index="1BurEX">
-        <child id="4278635856200826394" name="path" index="1BurEY" />
-      </concept>
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
@@ -315,6 +312,12 @@
             <ref role="1Busuk" to="ip48:5wLtKNeSRPD" resolve="org.iets3.core.expr.base" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2UcOGFaH0RR" role="3bR37C">
+          <node concept="3bR9La" id="2UcOGFaH0RS" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="GUpsR1i$_F" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -340,66 +343,6 @@
           <property role="TrG5h" value="de.itemis.mps.build.example.lang.b#809071017451993756" />
           <property role="3LESm3" value="b7c161d6-57dd-463e-9a51-3033cca8934f" />
           <property role="2GAjPV" value="false" />
-        </node>
-      </node>
-      <node concept="1E1JtA" id="GUpsR1i$Fz" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="java.money" />
-        <property role="3LESm3" value="554ea5e4-b1cf-4261-903c-06a670edb0b7" />
-        <property role="2GAjPV" value="false" />
-        <node concept="398BVA" id="GUpsR1i$Gs" role="3LF7KH">
-          <ref role="398BVh" node="GUpsR1izzm" resolve="project.home" />
-          <node concept="2Ry0Ak" id="GUpsR1i$HQ" role="iGT6I">
-            <property role="2Ry0Am" value="code" />
-            <node concept="2Ry0Ak" id="GUpsR1i$JI" role="2Ry0An">
-              <property role="2Ry0Am" value="solutions" />
-              <node concept="2Ry0Ak" id="GUpsR1i$Np" role="2Ry0An">
-                <property role="2Ry0Am" value="java.money" />
-                <node concept="2Ry0Ak" id="GUpsR1i$Om" role="2Ry0An">
-                  <property role="2Ry0Am" value="java.money.msd" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="GUpsR1i$Pj" role="3bR37C">
-          <node concept="1BurEX" id="GUpsR1i$Pk" role="1SiIV1">
-            <node concept="398BVA" id="GUpsR1i$Pg" role="1BurEY">
-              <ref role="398BVh" node="GUpsR1izzm" resolve="project.home" />
-              <node concept="2Ry0Ak" id="GUpsR1i$Ph" role="iGT6I">
-                <property role="2Ry0Am" value="libs" />
-                <node concept="2Ry0Ak" id="GUpsR1i$Pi" role="2Ry0An">
-                  <property role="2Ry0Am" value="javax.annotation-api-1.3.2.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="GUpsR1i$Po" role="3bR37C">
-          <node concept="1BurEX" id="GUpsR1i$Pp" role="1SiIV1">
-            <node concept="398BVA" id="GUpsR1i$Pl" role="1BurEY">
-              <ref role="398BVh" node="GUpsR1izzm" resolve="project.home" />
-              <node concept="2Ry0Ak" id="GUpsR1i$Pm" role="iGT6I">
-                <property role="2Ry0Am" value="libs" />
-                <node concept="2Ry0Ak" id="GUpsR1i$Pn" role="2Ry0An">
-                  <property role="2Ry0Am" value="moneta-core-1.2.1.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="GUpsR1i$Pt" role="3bR37C">
-          <node concept="1BurEX" id="GUpsR1i$Pu" role="1SiIV1">
-            <node concept="398BVA" id="GUpsR1i$Pq" role="1BurEY">
-              <ref role="398BVh" node="GUpsR1izzm" resolve="project.home" />
-              <node concept="2Ry0Ak" id="GUpsR1i$Pr" role="iGT6I">
-                <property role="2Ry0Am" value="libs" />
-                <node concept="2Ry0Ak" id="GUpsR1i$Ps" role="2Ry0An">
-                  <property role="2Ry0Am" value="money-api-1.0.3.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
         </node>
       </node>
     </node>
@@ -525,28 +468,34 @@
           <property role="3MwjfP" value="1.0" />
         </node>
       </node>
-      <node concept="m$_yB" id="GUpsR1jUPd" role="m$_yh">
-        <ref role="m$_yA" node="GUpsR1j0Ip" resolve="test.de.itemis.mps.build.example.lang.a" />
+      <node concept="m$_yB" id="205zYT4vyzw" role="m$_yh">
+        <ref role="m$_yA" node="205zYT4vyyr" resolve="test.de.itemis.mps.build.example.lang.a" />
       </node>
       <node concept="m$_yC" id="GUpsR1jUPq" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
+      <node concept="m$_yC" id="2UcOGFaGhVK" role="m$_yJ">
+        <ref role="m$_y1" to="al5i:hCVXosGNJH" resolve="com.mbeddr.mpsutil.modellisteners" />
+      </node>
+      <node concept="m$_yC" id="2UcOGFaGhWc" role="m$_yJ">
+        <ref role="m$_y1" to="ip48:5wLtKNeSRRD" resolve="org.iets3.core.os" />
+      </node>
     </node>
-    <node concept="1E1JtA" id="GUpsR1j0Ip" role="3989C9">
+    <node concept="1E1JtA" id="205zYT4vyyr" role="3989C9">
       <property role="BnDLt" value="true" />
       <property role="TrG5h" value="test.de.itemis.mps.build.example.lang.a" />
       <property role="3LESm3" value="41a0cc02-6197-4043-b1f4-21cc23cdcbf4" />
       <property role="2GAjPV" value="false" />
       <property role="aoJFB" value="sources and tests" />
-      <node concept="398BVA" id="GUpsR1j0Iw" role="3LF7KH">
+      <node concept="398BVA" id="205zYT4vyyF" role="3LF7KH">
         <ref role="398BVh" node="GUpsR1j0G5" resolve="project.home" />
-        <node concept="2Ry0Ak" id="GUpsR1j0I$" role="iGT6I">
+        <node concept="2Ry0Ak" id="205zYT4vyyL" role="iGT6I">
           <property role="2Ry0Am" value="code" />
-          <node concept="2Ry0Ak" id="GUpsR1j0ID" role="2Ry0An">
+          <node concept="2Ry0Ak" id="205zYT4vyyQ" role="2Ry0An">
             <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="GUpsR1j0II" role="2Ry0An">
+            <node concept="2Ry0Ak" id="205zYT4vyyV" role="2Ry0An">
               <property role="2Ry0Am" value="test.de.itemis.mps.build.example.lang.a" />
-              <node concept="2Ry0Ak" id="GUpsR1j0IN" role="2Ry0An">
+              <node concept="2Ry0Ak" id="205zYT4vyz0" role="2Ry0An">
                 <property role="2Ry0Am" value="test.de.itemis.mps.build.example.lang.a.msd" />
               </node>
             </node>
@@ -618,28 +567,28 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="GUpsR1j0Gf" role="1l3spd">
+      <property role="TrG5h" value="mps.home" />
+    </node>
     <node concept="398rNT" id="GUpsR1jbSU" role="1l3spd">
       <property role="TrG5h" value="mps.macro.project.home" />
       <node concept="398BVA" id="GUpsR1jbTU" role="398pKh">
         <ref role="398BVh" node="GUpsR1j0G5" resolve="project.home" />
       </node>
     </node>
-    <node concept="398rNT" id="GUpsR1j0Gf" role="1l3spd">
-      <property role="TrG5h" value="mps.home" />
-    </node>
     <node concept="10PD9b" id="GUpsR1j0Ff" role="10PD9s" />
     <node concept="3b7kt6" id="GUpsR1j0Fe" role="10PD9s" />
-    <node concept="1gjT0q" id="GUpsR1j0Fg" role="10PD9s" />
+    <node concept="1gjT0q" id="47DXS9zhswB" role="10PD9s" />
     <node concept="55IIr" id="GUpsR1j0Cu" role="auvoZ" />
     <node concept="1l3spV" id="GUpsR1j0Cv" role="1l3spN">
-      <node concept="L2wRC" id="GUpsR1j0JG" role="39821P">
-        <ref role="L2wRA" node="GUpsR1j0Ip" resolve="test.de.itemis.mps.build.example.lang.a" />
+      <node concept="L2wRC" id="205zYT4vnfj" role="39821P">
+        <ref role="L2wRA" node="205zYT4vyyr" resolve="test.de.itemis.mps.build.example.lang.a" />
       </node>
     </node>
-    <node concept="22LTRH" id="GUpsR1j0JS" role="1hWBAP">
-      <property role="TrG5h" value="de.itemis.mps.build.example.tests" />
-      <node concept="22LTRM" id="GUpsR1j0L0" role="22LTRK">
-        <ref role="22LTRN" node="GUpsR1j0Ip" resolve="test.de.itemis.mps.build.example.lang.a" />
+    <node concept="22LTRH" id="47DXS9zhswG" role="1hWBAP">
+      <property role="TrG5h" value="example.tests" />
+      <node concept="22LTRM" id="205zYT4vyzR" role="22LTRK">
+        <ref role="22LTRN" node="205zYT4vyyr" resolve="test.de.itemis.mps.build.example.lang.a" />
       </node>
     </node>
   </node>
