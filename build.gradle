@@ -12,8 +12,6 @@ buildscript {
 group 'de.itemis.mps.build.example'
 description = "sample project for building MPS projects"
 
-//will import the gradle plugins fetched from nexus
-import de.itemis.mps.gradle.CreateDmg
 import de.itemis.mps.gradle.GenerateLibrariesXml
 import de.itemis.mps.gradle.GitBasedVersioning
 import de.itemis.mps.gradle.GetMpsInBrowser

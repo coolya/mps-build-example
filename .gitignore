@@ -7,3 +7,6 @@ artifacts
 .idea
 code/.mps/libraries.xml
 code/.mps/workspace.xml
+.gradletasknamecache
+.DS_Store
+classes_gen
