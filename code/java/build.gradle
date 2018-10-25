@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group 'de.itemis.mps.build.example'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.javamoney.moneta', name: 'moneta-core', version: '1.2.1'
+}
+
+publishing {
+    repositories {
+        mavenLocal()
+    }
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+}

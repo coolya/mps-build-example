@@ -8,7 +8,8 @@
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.build.example.lang.b/de.itemis.mps.build.example.lang.b.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.build.example.build.all.scripts/de.itemis.mps.build.example.build.all.scripts.msd" folder="_build" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.build.example.build/de.itemis.mps.build.example.build.msd" folder="_build" />
-      <modulePath path="$PROJECT_DIR$/solutions/java.money/java.money.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.build.example.xml.import/de.itemis.mps.build.example.xml.import.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/runtime.lib/runtime.lib.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/test.de.itemis.mps.build.example.lang.a/test.de.itemis.mps.build.example.lang.a.msd" folder="" />
     </projectModules>
   </component>

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.itemis.mps.build.example.lang.a.sandbox" uuid="37133cd2-8e82-45e8-870c-a91d4f185786" moduleVersion="0" compileInMPS="true">
+<solution name="de.itemis.mps.build.example.xml.import" uuid="af65fc55-b917-47d4-bd6d-2f5611a8f33e" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">554ea5e4-b1cf-4261-903c-06a670edb0b7(runtime.lib)</dependency>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+  </dependencies>
   <languageVersions>
-    <language slang="l:d73183a0-565f-4f82-b46d-a1646c987117:de.itemis.mps.build.example.lang.b" version="-1" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="6" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
     <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="0" />
@@ -22,7 +25,9 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="37133cd2-8e82-45e8-870c-a91d4f185786(de.itemis.mps.build.example.lang.a.sandbox)" version="0" />
+    <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
+    <module reference="af65fc55-b917-47d4-bd6d-2f5611a8f33e(de.itemis.mps.build.example.xml.import)" version="0" />
+    <module reference="554ea5e4-b1cf-4261-903c-06a670edb0b7(runtime.lib)" version="0" />
   </dependencyVersions>
 </solution>
 
